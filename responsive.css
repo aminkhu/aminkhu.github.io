@@ -28,9 +28,6 @@
   
   /* Untuk Smartphone */
   @media (max-width: 670px) {
-    .tour {
-      width: 100%;
-    }
    
     .btn {
       width: 100%;
@@ -61,7 +58,20 @@
       font-size: 14px;
       line-height: 20px;
     }
-    
+
+    .tour {
+      width: 100%;
+    }
+
+    .tour-wrapper h3{
+      padding-top: 10px;
+      width: auto;
+    }
+
+    .tour-wrapper p {
+      width: 100%;
+    }  
+
     footer {
       text-align:center;
     }
