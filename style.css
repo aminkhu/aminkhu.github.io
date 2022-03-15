@@ -1,235 +1,252 @@
 /* Mulai code Anda dari baris terakhir */
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: "Lucida Grande";
+    font-family: "Lucida Grande";
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .clear {
-  clear: left;
+    clear: left;
 }
 
 .container {
-  max-width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://th.bing.com/th/id/R.4b5536e8768330d2b8a27c51f9bf525e?rik=9p%2bcQGFuPhrPmQ&riu=http%3a%2f%2fwww.wallpapers13.com%2fwp-content%2fuploads%2f2016%2f04%2fMountain-Bromo-Desktop-Wallpaper-HD-1024x576.jpg&ehk=ekeTPIAnitjeMJFdiETirp1bVIY9N%2fjofKEoLt3aQAM%3d&risl=&pid=ImgRaw&r=0);
-  background-size: cover;
-  color: white;
-  text-align: center;
+    padding: 180px 0 100px 0;
+    background-image: url(https://th.bing.com/th/id/R.4b5536e8768330d2b8a27c51f9bf525e?rik=9p%2bcQGFuPhrPmQ&riu=http%3a%2f%2fwww.wallpapers13.com%2fwp-content%2fuploads%2f2016%2f04%2fMountain-Bromo-Desktop-Wallpaper-HD-1024x576.jpg&ehk=ekeTPIAnitjeMJFdiETirp1bVIY9N%2fjofKEoLt3aQAM%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    color: white;
+    text-align: center;
 }
 
 .top-wrapper h1 {
-  color: white;
-  offset-path: 1;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
+    color: white;
+    offset-path: 1;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
 }
 
 .top-wrapper p {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
 }
 
 .btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .btn-wrapper p {
-  margin: 10px 0;
+    margin: 10px 0;
 }
 
 .signup {
-  background-color: #239b76;
+    background-color: #239b76;
 }
 
 .facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
+    background-color: #3b5998;
+    margin-right: 10px;
 }
 
 .twitter {
-  background-color: #55acee;
+    background-color: #55acee;
 }
 
 .btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
 }
 
 .btn:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .fa {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
 header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 .logo {
-  width: 110px;
-  margin-top: 2px;
+    width: 110px;
+    margin-top: 2px;
 }
 
 .header-left {
-  float: left;
-  color: #eee;
-  padding-top: 5px;
+    float: left;
+    color: #eee;
+    padding-top: 5px;
 }
 
 .header-right {
-  float: right;
-  margin-right: -25px;
+    float: right;
+    margin-right: -25px;
 }
 
 .header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
 }
 
 .header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .tour-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
 }
 
 .heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .heading h2 {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 .tour {
-  float: left;
-  width: 25%;
+    float: left;
+    width: 25%;
 }
 
 .tour-icon {
-  position: relative;
+    position: relative;
 }
 
 .tour h3 {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 .tour-icon img {
-  width: 100%;
-  padding:0 10px;   
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 20px;
 }
 
 .tour-icon img:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .tour-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
 }
 
 .txt-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
 }
 
 .heading h3 {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 .message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
 }
 
-
 .message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
 }
 
 .message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
+    position: relative;
+    top: 7px;
+    box-shadow: none;
 }
 
 footer img {
-  width: 125px;
+    width: 125px;
+    float: left;
 }
 
 footer p {
-  color: #b3aeb5;
-  font-size: 12px;
+    color: #b3aeb5;
+    font-size: 12px;
+    float: right;
 }
 
 footer {
-  background-color: #5f5d60;
-  padding-top: 20px;
-  padding-bottom: 10px;
+    background-color: #5f5d60;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 85px;
+    width: 100%;
 }
 
 footer {
-  text-align: center;
+    text-align: center;
+    color: white;
+    margin: auto;
 }
 
-  /* Ketik code Anda dibawah */
+
+/* Ketik code Anda dibawah */
+
 .menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
 }
-
-
