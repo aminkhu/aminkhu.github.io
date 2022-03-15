@@ -217,21 +217,27 @@ header {
 
 footer img {
     width: 125px;
+    float: left;
 }
 
 footer p {
     color: #b3aeb5;
     font-size: 12px;
+    float: right;
 }
 
 footer {
     background-color: #5f5d60;
     padding-top: 20px;
     padding-bottom: 10px;
+    height: 85px;
+    width: 100%;
 }
 
 footer {
     text-align: center;
+    color: white;
+    margin: auto;
 }
 
 
