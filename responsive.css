@@ -1,62 +1,82 @@
-@media all and (max-width: 1000px) {
-    .tour {
-      width: 50%;
-      margin-bottom: 50px;
-    }
-    
-    .top-wrapper h1 {
-      font-size: 32px;
-    }
-    
-    .heading h2 {
-      font-size: 20px;
-    }
-
-    footer {
-      text-align: center;
-    }
-
+@media (max-width: 1000px) {
+  .tour {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .tour {
+    width: 313px;
+    height: 400px;
   }
   
-  /* Untuk Smartphone */
-  @media all and (max-width: 670px) {
-    .tour {
-      width: 100%;
-    }
-    
-    .btn {
-      width: 100%;
-    }
-    
-    .facebook {
-      margin-bottom: 10px;
-    }
-    
-    .top-wrapper {
-      text-align: left;
-    }
-    
-    /* Tambahkan CSS untuk header-right */
-    .header-right {
-      display:none;
-    }
-    
-    /* Tambahkan CSS untuk menu-icon */
-    .menu-icon {
-      display:block;
-    }
-    
-    .top-wrapper h1 {
-      font-size: 24px;
-      line-height: 36px;
-    }
-    
-    .top-wrapper p {
-      font-size: 14px;
-      line-height: 20px;
-    }
-    
-    footer {
-      text-align:center;
-    }
+  .top-wrapper h1 {
+    font-size: 32px;
   }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .header-right {
+    display:none;
+  }
+  
+  .menu-icon {
+    display:block;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+}
+
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+ 
+  .btn {
+    width: 100%;
+  }
+  
+  .header-right {
+    display:none;
+  }
+  
+  .menu-icon {
+    display:block;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .tour {
+    width: 100%;
+  }
+
+  .tour-wrapper h3{
+    padding-top: 10px;
+    width: auto;
+  }
+
+  .tour-wrapper p {
+    width: 100%;
+  }  
+
+  footer {
+    text-align:center;
+  }
+}
