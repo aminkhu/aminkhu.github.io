@@ -89,7 +89,7 @@ a {
 }
 
 header {
-  height: 65px;
+  height: 75px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
   position :fixed;
@@ -100,6 +100,7 @@ header {
 .logo {
   width: 110px;
   margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .header-left {
@@ -111,6 +112,14 @@ header {
 .header-right {
   float: right;
   margin-right: -25px;
+}
+
+.menu-icon {
+  display:none;
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
 }
 
 .header-right a {
@@ -223,13 +232,28 @@ footer {
   text-align: center;
 }
 
-  /* Ketik code Anda dibawah */
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
+.underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 
