@@ -149,7 +149,9 @@ header {
 }
 
 .heading h2 {
-    font-weight: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: black;
 }
 
 .tour {
@@ -163,8 +165,11 @@ header {
 
 
 .tour h3 {
-    opacity: 0.8;
-    cursor: pointer;
+  opacity: 0.8;
+  font-size: 25px;
+  color: black;
+  padding-top: 15px;
+  cursor: pointer;
 }
 
 .tour-icon img {
@@ -180,10 +185,11 @@ header {
 }
 
 .tour-icon p {
-    position: absolute;
-    top: 44%;
-    width: 100%;
-    color: white;
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: black;
+  font-size: 15px;
 }
 
 .txt-contents {
@@ -197,13 +203,50 @@ header {
 }
 
 .heading h3 {
-    font-weight: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
 }
 
 .message-wrapper {
     padding-bottom: 80px;
     text-align: center;
 }
+
+.message-wrapper p {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.input:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+input {
+  margin-top: 10px;
+}
+
+footer img {
+  width: 125px;
+  float: left;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  float: right;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: #5f5d60;
+  padding-top: 10px;
+  padding-bottom: 70px;
 
 .message {
     padding: 15px 40px;
