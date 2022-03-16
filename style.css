@@ -73,7 +73,6 @@ a {
 .twitter,
 .youtube,
 .instagram,
-.whatsapp,
 .signup {
     background-color: white;
     margin: 5px;
@@ -162,6 +161,7 @@ header {
     position: relative;
 }
 
+
 .tour h3 {
     opacity: 0.8;
     cursor: pointer;
@@ -190,6 +190,7 @@ header {
     width: 80%;
     display: inline-block;
     margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 15px;
     color: #b3aeb5;
     text-align: justify;
@@ -231,9 +232,8 @@ footer {
 }
 
 .btn-hub {
-    margin-top: 10px;
-    margin-left: 10px;
-    padding-left: 5px;
+    margin : 10px;
+    padding: 10px;
 }
 
 .footer-left {
@@ -244,6 +244,13 @@ footer {
 .footer-right {
     float: right;
     margin: 10px;
+}
+
+.logof {
+    width: 125px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
 }
 
 .menu-icon {

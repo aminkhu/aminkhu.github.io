@@ -1,11 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+
 @media (max-width: 1000px) {
-  .tour {
-    width: 50%;
-    margin-bottom: 50px;
+  .tours {
+    text-align: center;
   }
+  
   .tour {
-    width: 313px;
-    height: 400px;
+    width: 420px;
+    height: 450px;
+  }
+
+  .tour-icon img {
+    width: 85%;
+    height: 85%;
   }
   
   .top-wrapper h1 {
@@ -28,6 +37,28 @@
     text-align: center;
   }
 
+  .footer-left {
+    text-align: left;
+    width: 65%;
+  }
+
+  .btn-hub {
+    display: flex;
+    width: 40%;
+  }
+
+  .logof {
+    width: 125px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+  }
+
+  .fa {
+    width: auto;
+    height: auto;
+  }
+
 }
 
 /* Untuk Smartphone */
@@ -45,8 +76,14 @@
     display:block;
   }
 
-  .facebook {
-    margin-bottom: 10px;
+  .facebook,
+  .twitter,
+  .youtube,
+  .instagram,
+  .signup {
+    background-color: white;
+    margin: 5px;
+    z-index: 2;
   }
   
   .top-wrapper {
@@ -77,6 +114,29 @@
   }  
 
   footer {
-    text-align:center;
+    text-align:left;
+    width: 100%;
+    height: 130px;
+  }
+
+  .footer-left {
+    width: 65%;
+  }
+
+  .btn-hub {
+    display: flex;
+    width: 40%;
+  }
+
+  .logof {
+    width: 125px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+  }
+
+  .fa {
+    width: auto;
+    height: auto;
   }
 }
