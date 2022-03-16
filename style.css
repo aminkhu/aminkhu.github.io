@@ -66,24 +66,18 @@ a {
 
 .btn-wrapper p {
     margin: 10px 0;
+    color:black;
 }
 
-.signup {
-    background-color: #239b76;
-}
-
-.facebook {
-    background-color: #3b5998;
-    margin-right: 10px;
-}
-
-.twitter {
-    background-color: #55acee;
+.facebook,.twitter,.youtube,.instagram,.whatsapp,.signup{
+    background-color: white;
+    margin: 5px;
+    z-index: 2;
 }
 
 .btn {
     padding: 12px 24px;
-    color: white;
+    color: black;
     display: inline-block;
     opacity: 0.8;
     border-radius: 4px;
@@ -99,9 +93,9 @@ a {
 }
 
 header {
-    height: 75px;
+    height: 80px;
     width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
     position :fixed;
     top: 0;
     z-index: 10;
@@ -116,7 +110,7 @@ header {
 .header-left {
     float: left;
     color: #eee;
-    padding-top: 5px;
+    margin: 10px;
 }
 
 .header-right {
@@ -125,7 +119,7 @@ header {
 }
 
 .header-right a {
-    line-height: 65px;
+    line-height: 80px;
     padding: 0 25px;
     color: white;
     display: block;
@@ -200,7 +194,6 @@ header {
 }
 
 .message-wrapper {
-    border-bottom: 1px solid #eee;
     padding-bottom: 80px;
     text-align: center;
 }
@@ -218,33 +211,36 @@ header {
     box-shadow: none;
 }
 
-footer img {
-    width: 125px;
-    float: left;
+footer {
+    background-color: black;
+    padding: 10px;
+    color:white;
+    width: 100%;
+    height: 125px;
 }
 
-footer p {
-    color: #b3aeb5;
-    font-size: 12px;
+.footer-right img {
+    width: 130px;
     float: right;
 }
 
-footer {
-    background-color: #5f5d60;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    height: 85px;
-    width: 100%;
+.btn-hub {
+    margin-top:10px;
+    margin-left:10px;
+    padding-left: 5px;
 }
 
-footer {
-    text-align: center;
-    color: white;
-    margin: auto;
+.footer-left {
+    float: left;
+    margin: 5px;
 }
 
 
-/* Ketik code Anda dibawah */
+.footer-right {
+    float: right;
+    margin: 10px;
+}
+
 
 .menu-icon {
     color: white;
