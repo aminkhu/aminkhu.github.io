@@ -66,10 +66,15 @@ a {
 
 .btn-wrapper p {
     margin: 10px 0;
-    color:black;
+    color: white;
 }
 
-.facebook,.twitter,.youtube,.instagram,.whatsapp,.signup{
+.facebook,
+.twitter,
+.youtube,
+.instagram,
+.whatsapp,
+.signup {
     background-color: white;
     margin: 5px;
     z-index: 2;
@@ -96,16 +101,16 @@ header {
     height: 80px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
-    position :fixed;
+    position: fixed;
     top: 0;
     z-index: 10;
-  }
-  
-  .logo {
+}
+
+.logo {
     width: 110px;
     margin-top: 2px;
     margin-bottom: 2px;
-  }
+}
 
 .header-left {
     float: left;
@@ -159,6 +164,7 @@ header {
 
 .tour h3 {
     opacity: 0.8;
+    cursor: pointer;
 }
 
 .tour-icon img {
@@ -187,7 +193,7 @@ header {
     font-size: 15px;
     color: #b3aeb5;
     text-align: justify;
-  }
+}
 
 .heading h3 {
     font-weight: normal;
@@ -214,7 +220,7 @@ header {
 footer {
     background-color: black;
     padding: 10px;
-    color:white;
+    color: white;
     width: 100%;
     height: 125px;
 }
@@ -225,8 +231,8 @@ footer {
 }
 
 .btn-hub {
-    margin-top:10px;
-    margin-left:10px;
+    margin-top: 10px;
+    margin-left: 10px;
     padding-left: 5px;
 }
 
@@ -235,12 +241,10 @@ footer {
     margin: 5px;
 }
 
-
 .footer-right {
     float: right;
     margin: 10px;
 }
-
 
 .menu-icon {
     color: white;
@@ -254,9 +258,9 @@ footer {
     display: inline-block;
     position: relative;
     color: black;
-  }
-  
-  .underline-animation:after {
+}
+
+.underline-animation:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -267,9 +271,14 @@ footer {
     background-color: black;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
-  
-  .underline-animation:hover:after {
+}
+
+.underline-animation:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
+
+.txt-shadow {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
